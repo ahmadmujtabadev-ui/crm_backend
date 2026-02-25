@@ -1,6 +1,6 @@
 // api/index.js (CommonJS)
 const app = require("../app");
-const { connectDB } = require("../config/db");
+const connectDB = require("../config/db");
 let dbConnection;
 
 module.exports = async function handler(req, res) {
